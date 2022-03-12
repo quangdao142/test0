@@ -1,0 +1,36 @@
+.subTenUser{
+    position: fixed;
+    list-style: none;
+    display: none;
+    background-color: #fff;
+    padding-left: 10px;
+    width: 120px;
+    height: 80px;
+}
+
+.subTenUser >li >a{
+    text-decoration: none;
+    color: black;
+}
+
+.subTenUser >li {
+    margin: 8px 0px;
+}
+
+.subTenUser >li  >a:hover
+.subTenUser >li:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    color: green;
+}
+
+
+.tenUser:hover .subTenUser{
+    display: block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.tenUser:hover{
+    cursor: pointer;
+}
+
+
